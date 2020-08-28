@@ -13,7 +13,9 @@ import org.elasticsearch.common.transport.InetSocketTransportAddress;
 import org.elasticsearch.common.xcontent.XContentType;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
 
-
+/**
+ * es 索引增删改查操作
+ */
 public class ESTest {
 
     public TransportClient getClient() {
